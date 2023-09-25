@@ -5,6 +5,7 @@ module.exports = {
 	mode: "development",
 	entry: {
 		index: "./src/script.js",
+		objects: "./src/objects.js",
 	},
 	devServer: {
 		static: "./dist",
